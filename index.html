@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form>
+            <div class="form_header">
+                <p class="header_main-text">Request for</p>
+                <p class="header_sub-text">Fill the form</p>
+            </div>
+            <table class="form_table">
+                <tr>
+                    <td class="form_checkbox">
+                        <input type="checkbox"/>
+                    </td>
+                    <td class="form_content">
+                        <div class="form_question">
+                            Weather 
+                        </div>
+                        <label for="weather-yes">Yes</label>
+                        <input class="form_radio_button" type="radio" id="weather-yes" value="weather"/>
+                        <label for="weather-no">No</label>
+                        <input type="radio" id="weather-no" value="weather"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="form_checkbox">
+                    </td>
+                    <td class="form_content">
+                        <div class="form_question">
+                            PAN 
+                        </div>
+                        <input type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="form_checkbox">
+                    </td>
+                    <td class="form_content">
+                        <div class="form_question">
+                            Father <span class="mandatory_blue">(Mandatory)</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="form_checkbox">
+                    </td>
+                    <td>
+                        <div class="full_name-block">
+                            <div class="full_name">
+                                <div>First Name</div>
+                                <input type="text"/>
+                            </div>
+                            <div class="full_name">
+                                <div>Last Name</div>
+                                <input type="text"/>
+                            </div>
+                            <div class="full_name">
+                                <div>Middle Name</div>
+                                <input type="text"/>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="form_checkbox">
+                    </td>
+                    <td>
+                        <table class="form_sub-table">
+                            <tr>
+                                <td>
+                                    <div>
+                                        Country
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <div class="paper_less_pan">
+                <div>For Paper less Pan</div>
+                <div>Upload </div>
+                <div class="form_upload_fields">
+                    <div>Already Uploaded</div>
+                    <div>
+                        <input type="text"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
